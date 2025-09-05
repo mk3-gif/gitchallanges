@@ -9,7 +9,7 @@ resource "aws_instance" "name" {
     lifecycle {
       #prevent_destroy = true
       create_before_destroy = true
-      ignore_changes = [ dev,]
+      ignore_changes = [ test,]
 
     }
     
