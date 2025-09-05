@@ -1,3 +1,3 @@
-*.pdf
-*.tfsate
-*.docs
+*.pdf       # ignores all PDF files
+*.tfstate   # typo fixed (Terraform state files usually end with .tfstate)
+*.docx      # Word files use .docx (not .docs)
